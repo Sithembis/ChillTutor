@@ -99,14 +99,14 @@
         </div>
         <!-- Sidebar Navidation Menus--><span class="heading">Main</span>
         <ul class="list-unstyled">
-          <li class="active"><a href="index.html"> <i class="icon-home"></i>Home </a></li>
-          <li><a href="tables.html"> <i class="icon-grid"></i>Tables </a></li>
-          <li><a href="Reports.html"> <i class="fa fa-bar-chart"></i>Reports </a></li>
-          <li><a href="Course.html"> <i class="icon-padnote"></i>Course </a></li>
+          <li class="active"><a href="index.html"> <i class="icon-home"></i><p class="text-success">Home </p></a></li>
+          <li><a href="tables.html"> <i class="icon-grid "></i><p class="text-success" >Tables </p></a></li>
+          <li><a href="Reports.html"> <i class="fa fa-bar-chart"></i><p class="text-success" >Reports</p> </a></li>
+          <li><a href="Course.html"> <i class="icon-padnote"></i><p class="text-success" >Course </p></a></li>
           <li><a href="#exampledropdownDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-windows"></i>Assignments </a>
             <ul id="exampledropdownDropdown" class="collapse list-unstyled ">
-              <li><a href="#">Assignment 1</a></li>
-              <li><a href="#">Assignment 2</a></li>
+              <li><a href="#"><p class="text-success" >Assignment 1</p></a></li>
+              <li><a href="#"><p class="text-success" >Assignment 2</p></a></li>
               
             </ul>
           </li>
