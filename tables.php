@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head> 
-     <meta charset="utf-8">
+  <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Chilled Tutor</title>
     <meta name="description" content="">
@@ -26,7 +26,7 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
   </head>
   <body>
-    <header class="header">   
+<header class="header">   
       <nav class="navbar navbar-expand-lg">
         <div class="search-panel">
           <div class="search-inner d-flex align-items-center justify-content-center">
@@ -51,45 +51,45 @@
             <div class="list-inline-item"><a href="#" class="search-open nav-link"><i class="icon-magnifying-glass-browser"></i></a></div>
            
             <!-- Tasks-->
-            
+           
             <!-- Tasks end-->
             <!-- Megamenu-->
             
             <!-- Megamenu end     -->
             <!-- Languages dropdown    -->
             <!-- Log out               -->
-            <div class="list-inline-item logout">                   <a id="logout" href="login.html" class="nav-link"> <span class="d-none d-sm-inline">Logout </span><i class="icon-logout"></i></a></div>
+            <div class="list-inline-item logout">   <a id="logout" href="login.html" class="nav-link"> <span class="d-none d-sm-inline">Logout </span><i class="icon-logout"></i></a></div>
           </div>
         </div>
       </nav>
     </header>
-    <div class="d-flex align-items-stretch">
+   <div class="d-flex align-items-stretch">
       <!-- Sidebar Navigation-->
       <nav id="sidebar">
         <!-- Sidebar Header-->
-         <div class="sidebar-header d-flex align-items-center">
+        <div class="sidebar-header d-flex align-items-center">
           <div class="avatar"><img src="img/KingRa.png" alt="..." class="img-fluid rounded-circle"></div>
           <div class="title">
             <h1 class="h5">Qiniso Zikode</h1>
             <p>Web Designer</p>
           </div>
         </div>
-        <!-- Sidebar Navidation Menus--><span class="heading">Main</span>
+        <!-- Sidebar Navidation Menus--><span class="heading text-success">Main</span>
         <ul class="list-unstyled">
           <li><a href="index.html"> <i class="icon-home text-success"></i>Home </a></li>
-          <li><a href="tables.html"> <i class="icon-grid text-success"></i>Tables </a></li>
+          <li class="active"><a href="tables.html"> <i class="icon-grid text-success"></i>Tables </a></li>
           <li><a href="Reports.html"> <i class="fa fa-bar-chart text-success"></i>Reports </a></li>
-          <li class="active"><a href="Course.html"> <i class="icon-padnote text-success"></i>Course </a></li>
-          <li><a href="#exampledropdownDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-windows text-success"></i>Assignments  </a>
+          <li><a href="Course.html"> <i class="icon-padnote text-success"></i>Course </a></li>
+          <li><a href="#exampledropdownDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-windows text-success"></i>Assignments </a>
             <ul id="exampledropdownDropdown" class="collapse list-unstyled ">
               <li><a href="#">Assignment 1</a></li>
               <li><a href="#">Assignment 2</a></li>
-             
+              
             </ul>
           </li>
-          <li><a href="index.html"> <i class="icon-logout text-success"></i>Login page </a></li>
+          <li><a href="login.html"> <i class="icon-logout"></i>Login page </a></li>
         
-     </ul><span class="heading text-success ">Extras</span>
+       </ul><span class="heading text-success">Extras</span>
         <ul class="list-unstyled">
           <li> <a href="#"> <i class="icon-settings text-success"></i>Settings </a></li> 
           <li> <a href="#"> <i class="icon-writing-whiteboard text-success"></i>Assignment </a></li>
@@ -99,72 +99,121 @@
       <!-- Sidebar Navigation end-->
       <div class="page-content">
         <!-- Page Header-->
-        <div class="page-header no-margin-bottom text-success">
+        <div class="page-header no-margin-bottom">
           <div class="container-fluid">
-            <h2 class="h5 no-margin-bottom text-success">Course</h2>
+            <h2 class="h5 no-margin-bottom text-success">Tables</h2>
           </div>
         </div>
         <!-- Breadcrumb-->
         <div class="container-fluid">
           <ul class="breadcrumb">
-            <li class="breadcrumb-item "><a href="index.html"class="text-warning">Home</a></li>
-            <li class="breadcrumb-item active text-success">Course        </li>
+            <li class="breadcrumb-item"><a href="index.html" class="text-warning">Home</a></li>
+            <li class="breadcrumb-item active text-success">Tables        </li>
           </ul>
         </div>
         <section class="no-padding-top">
           <div class="container-fluid">
             <div class="row">
-              <!-- Basic Form-->
+              <div class="col-lg-6">
+                <div class="block margin-bottom-sm">
+                  <div class="title text-success"><strong>View Assessor Details</strong></div>
+                  <div class="table-responsive"> 
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>assessor_id</th>
+                          <th>First Name</th>
+                          <th>Last Name</th>
+                          <th>Username</th>
+                          <th>Number</th>
+                          <th>Gender</th>
+                          <th>Email</th>
+                          
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>Mark</td>
+                          <td>Otto</td>
+                          <td>@mdo</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>Jacob</td>
+                          <td>Thornton</td>
+                          <td>@fat</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td>Larry</td>
+                          <td>the Bird</td>
+                          <td>@twitter</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              
+              
               <div class="col-lg-6">
                 <div class="block">
-                  <div class="title"><strong class="d-block text-success">Course</strong><span class="d-block ">Add Course and Qualification</span></div>
-                  <div class="block-body">
-                    <form>
-                      <div class="form-group">
-                        <label class="form-control-label text-success">Course</label>
-                        <input type="text" placeholder="Course" class="form-control">
-                      </div>
-                      <div class="form-group">       
-                        <label class="form-control-label text-success">Qualification</label>
-                        <input type="text" placeholder="Qualification" class="form-control">
-                      </div>
-                      <div class="form-group">       
-                        <input type="submit" value="Add" class="btn btn-success">
-                      </div>
-                    </form>
+                  <div class="title"><strong>Compact Table</strong></div>
+                  <div class="table-responsive"> 
+                    <table class="table table-striped table-sm">
+                      <thead>
+                        <tr>
+                          <th>#</th>
+                          <th>First Name</th>
+                          <th>Last Name</th>
+                          <th>Username</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>Mark</td>
+                          <td>Otto</td>
+                          <td>@mdo</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>Jacob</td>
+                          <td>Thornton</td>
+                          <td>@fat</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td>Larry</td>
+                          <td>the Bird</td>
+                          <td>@twitter      </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">4</th>
+                          <td>Mark</td>
+                          <td>Otto</td>
+                          <td>@mdo</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">5</th>
+                          <td>Jacob</td>
+                          <td>Thornton</td>
+                          <td>@fat</td>
+                        </tr>
+                      </tbody>
+                    </table>
                   </div>
                 </div>
               </div>
-              <!-- Horizontal Form-->
-               <div class="col-lg-6">
-                <div class="block">
-                  <div class="title"><strong class="d-block text-success">Modules</strong><span class="d-block">Add Modules </span></div>
-                  <div class="block-body">
-                    <form>
-                      <div class="form-group">
-                        <label class="form-control-label text-success">Modules</label>
-                        <input type="text" placeholder="Course" class="form-control">
-                      </div>
-                    
-                      <div class="form-group">       
-                        <input type="submit" value="Add" class="btn btn-success">
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-              <!-- Inline Form-->
-            
-              <!-- Modal Form-->
-
-              <!-- Form Elements -->
-              
+            </div>
+          </div>
         </section>
         <footer class="footer">
           <div class="footer__block block no-margin-bottom">
             <div class="container-fluid text-center">
               <!-- Please do not remove the backlink to us unless you support us at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
-              <p class="no-margin-bottom text-success">2019 &copy;  Design by <a href="https://sites.google.com/zenotha/view/home" class="text-success">Zenotha IT Solutions</a>.</p>
+              <p class="no-margin-bottom text-success">2019 &copy;Design by <a href="https://sites.google.com/view/zenotha/home " class="text-success">Zenotha IT Solutions</a></p>
             </div>
           </div>
         </footer>

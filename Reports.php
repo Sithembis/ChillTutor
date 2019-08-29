@@ -42,46 +42,21 @@
         <div class="container-fluid d-flex align-items-center justify-content-between">
           <div class="navbar-header">
             <!-- Navbar Header--><a href="index.html" class="navbar-brand">
-              <div class="brand-text brand-big visible text-uppercase"><strong class="text-primary">Chilled</strong><strong>Tutor</strong></div>
-              <div class="brand-text brand-sm"><strong class="text-primary">C</strong><strong>T</strong></div></a>
+              <div class="brand-text brand-big visible text-uppercase"><strong class="text-success">Chilled</strong><strong class="text-warning">Tutor</strong></div>
+              <div class="brand-text brand-sm"><strong class="text-success">C</strong><strong class="text-warning">T</strong></div></a>
             <!-- Sidebar Toggle Btn-->
             <button class="sidebar-toggle"><i class="fa fa-long-arrow-left"></i></button>
           </div>
           <div class="right-menu list-inline no-margin-bottom">    
             <div class="list-inline-item"><a href="#" class="search-open nav-link"><i class="icon-magnifying-glass-browser"></i></a></div>
            
-            <!-- Tasks-->
-            <div class="list-inline-item dropdown"><a id="navbarDropdownMenuLink2" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link tasks-toggle"><i class="icon-new-file"></i><span class="badge dashbg-3">9</span></a>
-              <div aria-labelledby="navbarDropdownMenuLink2" class="dropdown-menu tasks-list"><a href="#" class="dropdown-item">
-                  <div class="text d-flex justify-content-between"><strong>Task 1</strong><span>40% complete</span></div>
-                  <div class="progress">
-                    <div role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" class="progress-bar dashbg-1"></div>
-                  </div></a><a href="#" class="dropdown-item">
-                  <div class="text d-flex justify-content-between"><strong>Task 2</strong><span>20% complete</span></div>
-                  <div class="progress">
-                    <div role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" class="progress-bar dashbg-3"></div>
-                  </div></a><a href="#" class="dropdown-item">
-                  <div class="text d-flex justify-content-between"><strong>Task 3</strong><span>70% complete</span></div>
-                  <div class="progress">
-                    <div role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" class="progress-bar dashbg-2"></div>
-                  </div></a><a href="#" class="dropdown-item">
-                  <div class="text d-flex justify-content-between"><strong>Task 4</strong><span>30% complete</span></div>
-                  <div class="progress">
-                    <div role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" class="progress-bar dashbg-4"></div>
-                  </div></a><a href="#" class="dropdown-item">
-                  <div class="text d-flex justify-content-between"><strong>Task 5</strong><span>65% complete</span></div>
-                  <div class="progress">
-                    <div role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" class="progress-bar dashbg-1"></div>
-                  </div></a><a href="#" class="dropdown-item text-center"> <strong>See All Tasks <i class="fa fa-angle-right"></i></strong></a>
-              </div>
-            </div>
-            <!-- Tasks end-->
+           
             <!-- Megamenu-->
             
             <!-- Megamenu end     -->
             <!-- Languages dropdown    -->
             <!-- Log out               -->
-            <div class="list-inline-item logout">                   <a id="logout" href="login.html" class="nav-link"> <span class="d-none d-sm-inline">Logout </span><i class="icon-logout"></i></a></div>
+            <div class="list-inline-item logout">       <a id="logout" href="login.html" class="nav-link"> <span class="d-none d-sm-inline">Logout </span><i class="icon-logout"></i></a></div>
           </div>
         </div>
       </nav>
@@ -99,23 +74,23 @@
         </div>
         <!-- Sidebar Navidation Menus--><span class="heading">Main</span>
         <ul class="list-unstyled">
-          <li><a href="index.html"> <i class="icon-home"></i>Home </a></li>
-          <li><a href="tables.html"> <i class="icon-grid"></i>Tables </a></li>
-          <li class="active"><a href="Reports.html"> <i class="fa fa-bar-chart"></i>Reports </a></li>
-          <li><a href="Course.html"> <i class="icon-padnote"></i>Course </a></li>
-          <li><a href="#exampledropdownDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-windows"></i>Assignments </a>
+          <li><a href="index.html"> <i class="icon-home text-success"></i>Home </a></li>
+          <li><a href="tables.html"> <i class="icon-grid text-success"></i>Tables </a></li>
+          <li class="active"><a href="Reports.html"> <i class="fa fa-bar-chart text-success"></i>Reports </a></li>
+          <li><a href="Course.html"> <i class="icon-padnote text-success"></i>Course </a></li>
+          <li><a href="#exampledropdownDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-windows text-success"></i>Assignments </a>
             <ul id="exampledropdownDropdown" class="collapse list-unstyled ">
-              <li><a href="#">Assignment 1</a></li>
-              <li><a href="#">Assignment 2</a></li>
+              <li class="text-success"><a href="#">Assignment 1</a></li>
+              <li class="text-success"><a href="#">Assignment 2</a></li>
               
             </ul>
           </li>
-          <li><a href="login.html"> <i class="icon-logout"></i>Login page </a></li>
+          <li><a href="index.html"> <i class="icon-logout text-success"></i>Login page </a></li>
         
-      </ul><span class="heading">Extras</span>
+      </ul><span class="heading text-success">Extras</span>
         <ul class="list-unstyled">
-          <li> <a href="#"> <i class="icon-settings"></i>Settings </a></li> 
-          <li> <a href="#"> <i class="icon-writing-whiteboard"></i>Assignment </a></li>
+          <li> <a href="#"> <i class="icon-settings text-success "></i>Settings </a></li> 
+          <li> <a href="#"> <i class="icon-writing-whiteboard text-success"></i>Assignment </a></li>
         
         </ul>
       </nav>
@@ -124,14 +99,14 @@
         <!-- Page Header-->
         <div class="page-header no-margin-bottom">
           <div class="container-fluid">
-            <h2 class="h5 no-margin-bottom">Reports</h2>
+            <h2 class="h5 no-margin-bottom text-success ">Reports</h2>
           </div>
         </div>
         <!-- Breadcrumb-->
         <div class="container-fluid">
           <ul class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-            <li class="breadcrumb-item active">Reports        </li>
+            <li class="breadcrumb-item text-success"><a href="index.html" class="text-warning">Home</a></li>
+            <li class="breadcrumb-item active text-success">Reports        </li>
           </ul>
         </div>
        
@@ -139,7 +114,7 @@
           <div class="footer__block block no-margin-bottom">
             <div class="container-fluid text-center">
               <!-- Please do not remove the backlink to us unless you support us at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
-              <p class="no-margin-bottom">2019 &copy;Design by <a href="https://bootstrapious.com/p/bootstrap-4-dark-admin">Zenotha IT Solutions</a>.</p>
+              <p class="no-margin-bottom text-success">2019 &copy;Design by <a href="https://sites.google.com/view/zenotha/home " class="text-success">Zenotha IT Solutions</a>.</p>
             </div>
           </div>
         </footer>

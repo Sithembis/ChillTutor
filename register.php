@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Chill Tutor </title>
+    <title >Chill Tutor </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
@@ -37,31 +37,32 @@
                 <div class="content">
                   <form class="text-left form-validate">
                     <div class="form-group-material">
+					<div class="brand-text brand-big visible text-uppercase"><strong class="container-fluid text-center text-success ">Signup</strong></div>
                       <input id="register-name" type="text" name="registerName" required data-msg="Please enter your Name" class="input-material">
-                      <label for="register-name" class="label-material">Name</label>
+                      <label for="register-name" class="label-material"><p class="text-success" >Name</p></label>
                     </div>
 					<div class="form-group-material">
                       <input id="register-surname" type="text" name="Surname" required data-msg="Please enter your Surname" class="input-material">
-                      <label for="register-surname" class="label-material">Surname</label>
+                      <label for="register-surname" class="label-material"><p class="text-success" >Surname</p></label>
                     </div>
 					<div class="form-group-material">
                       <input id="Stud_Num" type="text" name="Stud_Num" required data-msg="Please enter your Student Number" class="input-material">
-                      <label for="Stud_Num" class="label-material">Student Number</label>
+                      <label for="Stud_Num" class="label-material"><p class="text-success">Staff Number</p></label>
                     </div>
 					
 					<div class="form-group-material">
                       <input id="register-phone" type="text" name="phone" required data-msg="Please enter valid phone number" class="input-material">
-                      <label for="register-phone" class="label-material">Phone</label>
+                      <label for="register-phone" class="label-material"><p class="text-success">Phone</p></label>
                     </div>
 					
                     <div class="form-group-material">
                       <input id="register-email" type="email" name="registerEmail" required data-msg="Please enter a valid email address" class="input-material">
-                      <label for="register-email" class="label-material">Email Address      </label>
+                      <label for="register-email" class="label-material"><p class="text-success" >Email Address </p></label>
                     </div>
 					
                     <div class="form-group-material">
                       <input id="register-password" type="password" name="registerPassword" required data-msg="Please enter your password" class="input-material">
-                      <label for="register-password" class="label-material">Password        </label>
+                      <label for="register-password" class="label-material"><p class="text-success" >Password    </p></label>
                     </div>
 					<div class="form-group-material">
                      <label data-msg="Please select your Gender" ></label>
@@ -70,13 +71,13 @@
 					  <option>Female</option></select>
                     </div>
                     <div class="form-group terms-conditions text-center">
-                      <input id="register-agree" name="registerAgree" type="checkbox" required value="1" data-msg="Your agreement is required" class="checkbox-template">
+                      <input id="register-agree" name="registerAgree" type="checkbox" required value="1" data-msg="Your agreement is required" class="checkbox-template text-success ">
                       <label for="register-agree">I agree with the terms and policy</label>
                     </div>
-                    <div class="form-group text-center">
-                      <input id="register" type="submit" value="Register" class="btn btn-primary">
+                    <div class="form-group text-center ">
+                      <input id="register" type="submit" value="Register" class="btn btn-success">
                     </div>
-                  </form><small>Already have an account? </small><a href="login.html" class="signup">Login</a>
+                  </form><small>Already have an account? </small><a href="index.html" class="signup text-success">Login</a>
                 </div>
               </div>
             </div>
@@ -84,7 +85,7 @@
         </div>
       </div>
       <div class="copyrights text-center">
-        <p>Design by <a href="https://bootstrapious.com" class="external">Zenotha IT Solutions</a></p>
+        <p class=" text-success">Design by <a href="https://sites.google.com/view/zenotha/home" class="external text-success">Zenotha IT Solutions</a></p>
         <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
       </div>
     </div>

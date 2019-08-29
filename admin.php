@@ -42,8 +42,8 @@
         <div class="container-fluid d-flex align-items-center justify-content-between">
           <div class="navbar-header">
             <!-- Navbar Header--><a href="index.html" class="navbar-brand">
-              <div class="brand-text brand-big visible text-uppercase"><strong class="text-primary">Chilled</strong><strong>Tutor</strong></div>
-              <div class="brand-text brand-sm"><strong class="text-primary">C</strong><strong>T</strong></div></a>
+              <div class="brand-text brand-big visible text-uppercase "><strong class="text-primary text-success">Chilled</strong><strong class="text-warning">Tutor</strong></div>
+              <div class="brand-text brand-sm"><strong class="text-primary text-success">C</strong><strong class="text-warning">T</strong></div></a>
             <!-- Sidebar Toggle Btn-->
             <button class="sidebar-toggle"><i class="fa fa-long-arrow-left"></i></button>
           </div>
@@ -51,30 +51,7 @@
             <div class="list-inline-item"><a href="#" class="search-open nav-link"><i class="icon-magnifying-glass-browser"></i></a></div>
            
             <!-- Tasks-->
-            <div class="list-inline-item dropdown"><a id="navbarDropdownMenuLink2" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link tasks-toggle"><i class="icon-new-file"></i><span class="badge dashbg-3">9</span></a>
-              <div aria-labelledby="navbarDropdownMenuLink2" class="dropdown-menu tasks-list"><a href="#" class="dropdown-item">
-                  <div class="text d-flex justify-content-between"><strong>Task 1</strong><span>40% complete</span></div>
-                  <div class="progress">
-                    <div role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" class="progress-bar dashbg-1"></div>
-                  </div></a><a href="#" class="dropdown-item">
-                  <div class="text d-flex justify-content-between"><strong>Task 2</strong><span>20% complete</span></div>
-                  <div class="progress">
-                    <div role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" class="progress-bar dashbg-3"></div>
-                  </div></a><a href="#" class="dropdown-item">
-                  <div class="text d-flex justify-content-between"><strong>Task 3</strong><span>70% complete</span></div>
-                  <div class="progress">
-                    <div role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" class="progress-bar dashbg-2"></div>
-                  </div></a><a href="#" class="dropdown-item">
-                  <div class="text d-flex justify-content-between"><strong>Task 4</strong><span>30% complete</span></div>
-                  <div class="progress">
-                    <div role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" class="progress-bar dashbg-4"></div>
-                  </div></a><a href="#" class="dropdown-item">
-                  <div class="text d-flex justify-content-between"><strong>Task 5</strong><span>65% complete</span></div>
-                  <div class="progress">
-                    <div role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" class="progress-bar dashbg-1"></div>
-                  </div></a><a href="#" class="dropdown-item text-center"> <strong>See All Tasks <i class="fa fa-angle-right"></i></strong></a>
-              </div>
-            </div>
+            
             <!-- Tasks end-->
             <!-- Megamenu-->
             
@@ -93,28 +70,28 @@
         <div class="sidebar-header d-flex align-items-center">
           <div class="avatar"><img src="img/KingRa.png" alt="..." class="img-fluid rounded-circle"></div>
           <div class="title">
-            <h1 class="h5">Qiniso Zikode</h1>
-            <p>Web Designer</p>
+            <h1 class="h5 text-success">Qiniso Zikode</h1>
+            <p text-success>Web Designer</p>
           </div>
         </div>
-        <!-- Sidebar Navidation Menus--><span class="heading">Main</span>
+        <!-- Sidebar Navidation Menus--><span class="heading text-success">Main</span>
         <ul class="list-unstyled">
-          <li class="active"><a href="index.html"> <i class="icon-home"></i>Home </a></li>
-          <li><a href="tables.html"> <i class="icon-grid"></i>Tables </a></li>
-          <li><a href="Reports.html"> <i class="fa fa-bar-chart"></i>Reports </a></li>
-          <li><a href="Course.html"> <i class="icon-padnote"></i>Course </a></li>
-          <li><a href="#exampledropdownDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-windows"></i>Assignments </a>
-            <ul id="exampledropdownDropdown" class="collapse list-unstyled ">
+          <li class="active"><a href="index.html"> <i class="icon-home text-success"></i>Home </a></li>
+          <li><a href="tables.html"> <i class="icon-grid text-success"></i>Tables </a></li>
+          <li><a href="Reports.html"> <i class="fa fa-bar-chart text-success"></i>Reports </a></li>
+          <li><a href="Course.html"> <i class="icon-padnote text-success"></i>Course </a></li>
+          <li><a href="#exampledropdownDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-windows text-success"></i>Assignments </a>
+            <ul id="exampledropdownDropdown" class="collapse list-unstyled text-success">
               <li><a href="#">Assignment 1</a></li>
               <li><a href="#">Assignment 2</a></li>
               
             </ul>
           </li>
-          <li><a href="login.html"> <i class="icon-logout"></i>Login page </a></li>
-        </ul><span class="heading">Extras</span>
+          <li><a href="login.html"> <i class="icon-logout text-success"></i>Login page </a></li>
+        </ul><span class="heading text-success">Extras</span>
         <ul class="list-unstyled">
-          <li> <a href="#"> <i class="icon-settings"></i>Settings </a></li> 
-          <li> <a href="#"> <i class="icon-writing-whiteboard"></i>Assignment </a></li>
+          <li> <a href="#"> <i class="icon-settings text-success"></i>Settings </a></li> 
+          <li> <a href="#"> <i class="icon-writing-whiteboard text-success"></i>Assignment </a></li>
         
         </ul>
       </nav>
@@ -122,7 +99,7 @@
       <div class="page-content">
         <div class="page-header">
           <div class="container-fluid">
-            <h2 class="h5 no-margin-bottom">AdminBoard</h2>
+            <h2 class="h5 no-margin-bottom "><p class="text-success">AdminBoard</p></h2>
           </div>
         </div>
 
@@ -134,10 +111,10 @@
             <div class="row">
               <div class="col-lg-6">
                 <div class="checklist-block block">
-                  <div class="title"><strong>To Do List</strong></div>
+                  <div class="title"><strong class="text-success">To Do List</strong></div>
                   <div class="checklist">
                     <div class="item d-flex align-items-center">
-                      <input type="checkbox" id="input-1" name="input-1" class="checkbox-template">
+                      <input type="checkbox" id="input-1" name="input-1" class="checkbox-template text-success">
                       <label for="input-1">//</label>
                     </div>
                     <div class="item d-flex align-items-center">
@@ -172,28 +149,28 @@
             <div class="row">
               <div class="col-lg-4">
                 <div class="stats-with-chart-2 block">
-                  <div class="title"><strong class="d-block">Test1</strong><span class="d-block">progress</span></div>
+                  <div class="title"><strong class="d-block"><p class="text-success">Test1</p></strong><span class="d-block text-success">progress</span></div>
                   <div class="piechart chart">
                     <canvas id="pieChartHome1"></canvas>
-                    <div class="text"><strong class="d-block">100%</strong><span class="d-block">pass</span></div>
+                    <div class="text text-success"><strong class="d-block">100%</strong><span class="d-block">pass</span></div>
                   </div>
                 </div>
               </div>
               <div class="col-lg-4">
                 <div class="stats-with-chart-2 block">
-                  <div class="title"><strong class="d-block">Test2</strong><span class="d-block">progress</span></div>
+                  <div class="title text-success"><strong class="d-block text-success">Test2</strong><span class="d-block">progress</span></div>
                   <div class="piechart chart">
                     <canvas id="pieChartHome2"></canvas>
-                    <div class="text"><strong class="d-block">100%</strong><span class="d-block">pass</span></div>
+                    <div class="text text-success"><strong class="d-block">100%</strong><span class="d-block">pass</span></div>
                   </div>
                 </div>
               </div>
               <div class="col-lg-4">
                 <div class="stats-with-chart-2 block">
-                  <div class="title"><strong class="d-block">Test3</strong><span class="d-block">progress</span></div>
+                  <div class="title text-success"><strong class="d-block text-success">Test3</strong><span class="d-block">progress</span></div>
                   <div class="piechart chart">
                     <canvas id="pieChartHome3"></canvas>
-                    <div class="text"><strong class="d-block">100%</strong><span class="d-block">pass</span></div>
+                    <div class="text text-success"><strong class="d-block text-success">100%</strong><span class="d-block">pass</span></div>
                   </div>
                 </div>
               </div>
@@ -202,9 +179,9 @@
         </section>
         <footer class="footer">
           <div class="footer__block block no-margin-bottom">
-            <div class="container-fluid text-center">
+            <div class="container-fluid text-center text-success">
               <!-- Please do not remove the backlink to us unless you support us at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
-              <p class="no-margin-bottom">2019 &copy; Design by <a href="https://bootstrapious.com/p/bootstrap-4-dark-admin">Zenotha IT Solutions</a>.</p>
+              <p class="no-margin-bottom text-success">2019 &copy; Design by <a href="https://sites.google.com/view/zenotha/home" class="text-success">Zenotha IT Solutions</a>.</p>
             </div>
           </div>
         </footer>
